@@ -1,0 +1,139 @@
+body{
+    /* border: rgb(255, 0, 149) solid;
+    width: 80%;
+    margin: auto;
+    min-width: 250px;
+    max-width: 960px;    
+    padding: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo de banner */
+
+/* .banner {
+    height: 200px;
+    background-image: url(../src/assets/banner.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;    
+} */
+
+/* Estilos Acerca de */
+
+/* .acercaDe {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;    
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+/* .acercaDe .box1 {      
+    border: solid;
+    padding: 1%;     
+} */
+
+/* .acercaDe .box1 img{
+    Imagen de perfil
+    margin-top: -100px;
+    height: 150px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 80px;
+} */
+
+/* .acercaDe .box2 {      
+    border: solid;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;     
+} */
+
+/* .acercaDe .box2 span{
+    font-size: xx-large ;    
+    font-weight: bold;
+} */
+
+/* .acercaDe .box2 .titulo {
+    font-size: large;
+    font-weight: bold;
+    color:darkgray
+} */
+
+/* Estilos de secciones */
+
+/*summary{    
+    margin: 0.5% 0% 0.5% 0%;
+    padding: 1% 5px;   
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0,212,255,1);
+    cursor: pointer;
+}
+
+ul {    
+    border:blue solid;
+    background-color: rgb(247, 247, 247);
+    padding: 1%;
+}
+
+li h6{
+    border: green solid;
+    margin: auto;
+    font-size: medium;    
+    font-weight: bold;
+    color:dimgray; 
+}
+
+details h3{    
+    border: yellow solid;
+    background-color:rgb(67, 67, 67);
+    margin: 5px; 
+    padding: 5px;
+    font-size: large;    
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}  
+
+li {    
+    border: rgb(255, 149, 0) solid;
+    font-size: medium;    
+    font-weight: normal;
+    color:dimgray;
+    margin-bottom: 1%;
+}
+
+li p {    
+    border:solid;
+    display: inline;
+}*/
+
+/*Estilos de sección circular*/
+
+/* .circlesRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.circlesBox {
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center; 
+} */
+
+
+
+
+
+/* Estilos del footer */
+
+/* footer {
+    background-color: gray;
+    border-radius:0px 0px 15px 15px;
+    height: 100px;
+} */

@@ -1,0 +1,76 @@
+.componentBox{
+    /* border: rgb(255, 0, 149) solid; */
+    width: 80%;
+    min-width: 250px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.barraSuperior{
+    background:  darkgray;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    display:flex;
+    justify-content: space-between;    
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.barraSuperior .box1 {    
+    /* border: red solid; */
+    border-radius: 15px 0px 0px 0px;
+    background: darkgray;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.barraSuperior .box2 {      
+    /* border: solid; */
+    border-radius: 0px 15px 0px 0px;
+    background:  darkgray;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 5px;    
+}
+
+.barraSuperior .box1 img {
+    width: 150px;
+}
+
+.subtitle{
+    margin: 1%;
+    font-weight: bold;
+}
+
+.barraSuperior .box2 img {
+    width: 30px;
+    margin: 2px;
+}
+
+.barraSuperior .box2 button {
+    background-color: darkgray;
+    border: none;
+    margin: 1% 0% 10% 0%;
+    cursor: pointer;
+}
+
+.barraSuperior .box2 button:hover{
+    font-weight: bold;
+    color: rgb(45, 0, 167);
+
+
+}
+
+/* Estilo de banner */
+
+.banner {
+    height: 200px;
+    background-image: url(../../../assets/banner.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;    
+}

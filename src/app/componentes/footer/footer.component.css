@@ -1,0 +1,19 @@
+.componentBox{
+    /* border: rgb(255, 0, 149) solid; */
+    width: 80%;
+    min-width: 250px;
+    max-width: 960px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    border-radius:0px 0px 15px 15px;
+    /* height: 100px; */
+}
+
+p {
+    margin:2%;    
+}

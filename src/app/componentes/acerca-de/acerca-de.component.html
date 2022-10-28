@@ -1,0 +1,24 @@
+<div class="componentBox">
+    <section class="acercaDe">
+        <div class="box1"><img src="{{persona.img}}" alt="Foto de Perfil"></div>
+        <div class="box2">
+            <div class="nombreApellido">
+                <span>{{persona.nombre}}&nbsp;{{persona.apellido}}</span>
+            </div>
+            <div class="titulo">Full Stack Developer JR</div>
+        </div>
+        <div class="box3">
+            <p>{{persona.descripcion}}
+        </div>
+        <div class="editarE" *ngIf="isLogged">
+            <!-- <button class="editButton" type="button" value="Edit2"> -->
+            <button class="editButton" type="button" value="Edit2" (click)="editTogle(persona.id)">
+                <i class="bi bi-pencil-fill"></i>
+            </button><br>
+        </div>
+
+
+    </section>
+    <app-edit-acerca-de *ngIf="editOn && persona.id==exId"></app-edit-acerca-de>
+</div>
+

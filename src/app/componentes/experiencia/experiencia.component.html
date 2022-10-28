@@ -1,0 +1,28 @@
+<div class="componentBox">
+<details name="Experiencia">
+    <summary>Experiencia</summary>
+    <ul>
+        <app-new-experiencia *ngIf="isLogged"></app-new-experiencia>
+        <li *ngFor="let Experiencia of expe.slice().reverse()">
+            <div class="lineaE">
+                <div class="detalleE">
+                    <h6>{{Experiencia.nombreE}}</h6>
+                    <p>{{Experiencia.descripcionE}}</p>
+                    <!--<p>{{Experiencia.id}}</p>-->
+                    
+                    <time></time><time></time>                                  
+                </div>
+                <div  class="editarE" *ngIf="isLogged" >                    
+                    <button class="editButton" type="button" value="Edit2" (click)="editTogle(Experiencia.id)">
+                        <i class="bi bi-pencil-fill"></i></button>
+                                      
+                    <button type="button" class="elimButton" value="Elim" (click)="delete(Experiencia.id)">
+                        <i class="bi bi-trash-fill"></i></button>
+                </div>                
+            </div>
+            <app-edit-experiencia *ngIf="editOn && Experiencia.id==exId"></app-edit-experiencia>
+
+        </li>
+    </ul>
+</details>
+</div>

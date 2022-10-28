@@ -1,0 +1,28 @@
+<div class="componentBox">
+    <details name="Cursos">
+        <summary>Cursos y Certificaciones</summary>
+        <ul>
+            <app-newcursos *ngIf="isLogged"></app-newcursos>
+            <li *ngFor="let Cursos of cursos.slice().reverse()">
+                <div class="lineaE">
+                    <div class="detalleE">
+                        <h6>{{Cursos.nombreCu}}</h6>
+                        <p>{{Cursos.descripcionCu}}</p>
+                        <!-- <p>{{Educacion.id}}</p>                         -->
+                        
+                        <time></time><time></time>                                  
+                    </div>
+                    <div  class="editarE" *ngIf="isLogged" >                    
+                        <button class="editButton" type="button" value="Edit2" (click)="editTogle(Cursos.id)">
+                            <i class="bi bi-pencil-fill"></i></button>
+                                          
+                        <button type="button" class="elimButton" value="Elim" (click)="delete(Cursos.id)">
+                            <i class="bi bi-trash-fill"></i></button>
+                    </div>                
+                </div>
+                <app-editcursos *ngIf="editOn && Cursos.id==exId"></app-editcursos>
+    
+            </li>
+        </ul>
+    </details>
+    </div>

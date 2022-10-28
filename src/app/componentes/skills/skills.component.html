@@ -1,0 +1,45 @@
+<div class="componentBox">
+    <details name="Educacion">
+        <summary>Soft / Hard Skills</summary>
+        <ul>            
+            <app-newskills *ngIf="isLogged"></app-newskills>
+            <span class="contenedorLineas">
+                <span class="lineaE" *ngFor="let Skills of skills.slice().reverse()">
+                
+                    <div class="detalleE">
+                        <!-- <h6>{{Skills.nombreSk}}</h6> -->
+                        <!-- <p>{{Skills.descripcionSk}}</p> -->
+                        <!-- <p>{{Skills.id}}</p>-->
+                        <span class="circlesBox">
+                            <circle-progress
+                             [percent]="Skills.descripcionSk" 
+                             [radius]="100" 
+                             [outerStrokeWidth]="16"
+                             [innerStrokeWidth]="8" 
+                             [outerStrokeColor]="'#0064c2'" 
+                             [innerStrokeColor]="'#0b4460'"
+                             [animation]="true" 
+                             [animationDuration]="300" 
+                             [responsive]="true" [showTitle]="true"
+                             [title]="Skills.nombreSk" 
+                             [showSubtitle]="false" 
+                             [units]="'%'">
+                            </circle-progress>
+                        </span>
+
+                        <time></time><time></time>
+                    </div>
+                    <div class="editarE" *ngIf="isLogged">
+                        <button class="editButton" type="button" value="Edit2" (click)="editTogle(Skills.id)">
+                            <i class="bi bi-pencil-fill"></i></button>
+
+                        <button type="button" class="elimButton" value="Elim" (click)="delete(Skills.id)">
+                            <i class="bi bi-trash-fill"></i></button>
+                    </div>
+                
+                <app-editskills *ngIf="editOn && Skills.id==exId"></app-editskills>
+
+            </span></span>
+        </ul>
+    </details>
+</div>

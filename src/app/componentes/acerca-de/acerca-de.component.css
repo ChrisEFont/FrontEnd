@@ -1,0 +1,103 @@
+.componentBox{
+    /* display: flex;
+    justify-content: space-between;
+    align-items:center; */
+    /* border: rgb(255, 0, 149) solid; */
+    width: 80%;
+    min-width: 250px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.acercaDe {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 478px){
+    .acercaDe {
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;    
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.acercaDe .box1 {      
+    /* border: solid; */
+    padding: 1%;     
+}
+
+.acercaDe .box1 img{
+    /* Imagen de perfil */
+    margin-top: -100px;
+    height: 150px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+.acercaDe .box2 {      
+    /* border: solid; */
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;     
+}
+
+.acercaDe .box2 span{
+    font-size: xx-large ;    
+    font-weight: bold;
+}
+
+.acercaDe .box2 .titulo {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(95, 95, 95)
+}
+
+.box3{
+    /* border:blue solid; */
+    max-width: 80%;
+    /* padding: 0% 1% 0% 5%; */
+    margin: 0.5% 0% 0.5% 0%;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(88, 88, 88);
+    /* background-color: rgb(227, 227, 227); */
+    cursor: pointer;
+}
+
+.editarE{
+    /* border:blue solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.editarE button{
+    border: none;
+    margin: 5%;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.editButton {
+    background-color: rgb(195, 220, 229);
+}
+
+.editButton:hover{
+    background-color: rgb(29, 194, 254);
+}

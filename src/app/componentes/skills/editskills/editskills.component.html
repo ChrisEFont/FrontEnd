@@ -1,0 +1,13 @@
+<form class="editLinea" (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+    <div class="nuevoDetalle">
+        <input type="text" class="form-control" placeholder="Nombre de la habilidad" id="nombreSk" name="nombreSk"
+            [(ngModel)]="skills.nombreSk" required>
+        <input type="number" min="10" max="100" class="form-control" placeholder="Nivel de la habilidad" id="descripcionSk"
+            name="descripcionSk" [(ngModel)]="skills.descripcionSk" required>
+    </div>
+    <div class="nuevoComandos">
+        <button class="Actualizar"><i class="bi bi-check-lg"></i></button>
+               
+    </div>
+
+</form>

@@ -1,0 +1,13 @@
+<form class="editLinea" (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+    <div class="nuevoDetalle">
+        <input type="text" class="form-control" placeholder="Nombre educación" id="nombreE" name="nombreE"
+            [(ngModel)]="educacion.nombreE" required>
+        <input type="text" class="form-control" placeholder="Descripción educación" id="descripcionE"
+            name="descripcionE" [(ngModel)]="educacion.descripcionE" required>
+    </div>
+    <div class="nuevoComandos">
+        <button class="Actualizar"><i class="bi bi-check-lg"></i></button>
+               
+    </div>
+
+</form>

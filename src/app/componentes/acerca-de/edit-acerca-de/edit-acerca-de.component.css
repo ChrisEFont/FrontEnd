@@ -1,0 +1,50 @@
+.editLinea{
+    /* border:blue solid; */
+    /* padding: 1%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nuevoDetalle{
+    /* border:blue solid; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-control{
+    width: 45%;
+    min-width: 200px;
+    margin: 1%;
+}
+
+.nuevoComandos{
+    /* border:blue solid; */
+    width: 20%;    
+    display: flex;
+    justify-content:center;
+}
+.Actualizar{
+    border: none;
+    margin: 5%;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(195, 220, 229);
+}
+
+.Actualizar:hover{
+    background-color: rgb(68, 255, 0);
+}
+
+#acercaDe{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize:vertical;
+    width: 45%;    
+}

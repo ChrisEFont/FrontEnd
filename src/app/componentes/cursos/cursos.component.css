@@ -1,0 +1,95 @@
+.componentBox{
+    /* border: rgb(255, 0, 149) solid; */
+    width: 80%;
+    min-width: 250px;
+    max-width: 960px;
+    margin: auto;
+}
+
+summary{ 
+    /* border:blue solid;    */
+    margin: 0.5% 0% 0.5% 0%;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0,212,255,1);
+    cursor: pointer;
+}
+
+
+ul {    
+    /* border:rgb(0, 0, 55) solid; */
+    background-color: rgb(247, 247, 247);
+    padding: 2%;
+}
+
+li {    
+    /* border:rgb(255, 0, 0) solid; */
+    background-color: rgb(247, 247, 247);
+    margin: 1%;
+}
+
+.lineaE {
+    /* border:rgb(11, 163, 0) solid; */
+    display:flex;
+    justify-content: space-between;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.detalleE{
+    /* border:blue solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;    
+}
+
+h6{
+    /* border:blue solid; */
+    margin:0;
+    display: inline;
+    font-size: medium;    
+    font-weight: bold;
+    color:dimgray; 
+}
+
+p {
+    /* border:blue solid; */
+    margin:0;
+}
+
+.editarE{
+    /* border:blue solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.editarE button{
+    border: none;
+    margin: 5%;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.editButton {
+    background-color: rgb(195, 220, 229);
+}
+
+.editButton:hover{
+    background-color: rgb(29, 194, 254);
+}
+
+.elimButton {
+    background-color: rgb(255, 181, 181);
+}
+
+.elimButton:hover{
+    background-color: rgb(255, 84, 84);
+}

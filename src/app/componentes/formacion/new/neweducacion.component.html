@@ -1,0 +1,14 @@
+<form class="nuevoLinea" (ngSubmit)="onCreate()" #f="ngForm">
+    <div class="title">Cargar nueva educación</div>
+    <div class="nuevoDetalle">
+        <input type="text" class="form-control" placeholder="Nombre de educación" id="nombreE" name="nombreE"
+            [(ngModel)]="nombreE" required>
+        <input type="text" class="form-control" placeholder="Descripción de educación" id="descripcionE" name="descripcionE"
+            [(ngModel)]="descripcionE" required>
+        <div class="nuevoComandos">
+            <button class="agregarE"><i class="bi bi-plus"></i></button>
+        </div>
+    </div>
+
+
+</form>

@@ -1,0 +1,153 @@
+<span class="circlesbox">
+<circle-progress
+  [percent]="90"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#0064c2'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'Comunicacion'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></span>
+
+<span class="circlesbox">
+<circle-progress
+  [percent]="80"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#0064c2'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'Trabajo en equipo'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></span>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="80"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#0064c2'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'Capacidad de analisis'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="60"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#ff8800'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'HTML'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="50"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#3dabff'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'CSS'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="30"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#ffd500'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'JS'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="30"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#e60505'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'JAVA'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="30"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#003e80'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'C++'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+
+<div class="circlesbox">
+<circle-progress
+  [percent]="40"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#949494'"
+  [innerStrokeColor]="'#0b4460'"
+  [animation]="true"
+  [animationDuration]="300"
+  [responsive]="true"
+  [showTitle]="true"
+  [title]="'SQL'"
+  [showSubtitle]="false"
+  [units]="''"
+></circle-progress></div>
+</details>

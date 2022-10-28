@@ -1,0 +1,28 @@
+<div class="componentBox">
+    <details name="Educacion">
+        <summary>Proyectos</summary>
+        <ul>
+            <app-newproyectos *ngIf="isLogged"></app-newproyectos>
+            <li *ngFor="let Proyectos of proyectos.slice().reverse()">
+                <div class="lineaE">
+                    <div class="detalleE">
+                        <h6>{{Proyectos.nombrePro}}</h6>
+                        <p>{{Proyectos.descripcionPro}}</p>
+                        <!-- <p>{{Educacion.id}}</p>-->
+                        
+                        <time></time><time></time>                                  
+                    </div>
+                    <div  class="editarE" *ngIf="isLogged" >                    
+                        <button class="editButton" type="button" value="Edit2" (click)="editTogle(Proyectos.id)">
+                            <i class="bi bi-pencil-fill"></i></button>
+                                          
+                        <button type="button" class="elimButton" value="Elim" (click)="delete(Proyectos.id)">
+                            <i class="bi bi-trash-fill"></i></button>
+                    </div>                
+                </div>
+                <app-editproyectos *ngIf="editOn && Proyectos.id==exId"></app-editproyectos>
+    
+            </li>
+        </ul>
+    </details>
+    </div>

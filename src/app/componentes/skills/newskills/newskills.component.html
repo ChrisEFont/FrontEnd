@@ -1,0 +1,14 @@
+<form class="nuevoLinea" (ngSubmit)="onCreate()" #f="ngForm">
+    <div class="title">Cargar nueva habilidad</div>
+    <div class="nuevoDetalle">
+        <input type="text" class="form-control" placeholder="Nombre de la habilidad" id="nombreSk" name="nombreSk"
+            [(ngModel)]="nombreSk" required>
+        <input type="range" min="10" max="100" step="10" class="slider" placeholder="Nivel habilidad" id="descripcionSk" name="descripcionSk"
+            [(ngModel)]="descripcionSk" required>
+        <div class="nuevoComandos">
+            <button class="agregarE"><i class="bi bi-plus"></i></button>
+        </div>
+    </div>
+
+
+</form>
